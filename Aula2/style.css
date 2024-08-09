@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.id-card {
+    border: 2px solid;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.doador {
+    border-color: green;
+}
+
+.nao-doador {
+    border-color: red;
+}
