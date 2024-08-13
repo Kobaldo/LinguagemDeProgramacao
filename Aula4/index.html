@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete Interativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Escolha seu Pedido na Lanchonete</h1>
+    <div id="interaction-area">
+        <label for="burger-choice">Escolha seu lanche:</label>
+        <select id="burger-choice">
+            <option value="vazio"></option>
+            <option value="hamburger">Hambúrguer</option>
+            <option value="cheeseburger">Cheeseburger</option>
+            <option value="vegetariano">Vegetariano</option>
+        </select>
+        <br><br>
+        <label for="side-choice">Escolha seu acompanhamento:</label>
+        <select id="side-choice">
+            <option value="vazio"></option>
+            <option value="batata">Batata Frita</option>
+            <option value="salada">Salada</option>
+            <option value="anéis de cebola">Anéis de Cebola</option>
+        </select>
+        <br><br>
+        <button onclick="placeOrder()">Fazer Pedido</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
