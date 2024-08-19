@@ -1,7 +1,0 @@
-function cadastrarCliente() {
-   
-}
-
-function consultarClientes() {
-
-}
